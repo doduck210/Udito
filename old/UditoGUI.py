@@ -14,7 +14,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
         self.progressBar.setGeometry(QtCore.QRect(70, 40, 71, 231))
-        self.progressBar.setMinimum(-40)
+        self.progressBar.setMinimum(-50)
         self.progressBar.setMaximum(0)
         self.progressBar.setProperty("value", -24)
         self.progressBar.setTextVisible(True)
