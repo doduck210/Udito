@@ -13,6 +13,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
+        MainWindow.setWindowIcon(QtGui.QIcon("C:/Users/Duck/Codes/Udito/QTDesigner/CampariIcon.png"))
+
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
         MainWindow.setStyleSheet("background-color: #605678;")
